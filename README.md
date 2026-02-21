@@ -1,12 +1,19 @@
-# 🛠️ Check-DNS & Mirror Toolkit
 
-A lightweight and efficient set of Bash scripts designed for Linux system administrators to verify DNS health and optimize mirror selections. 
 
-This toolkit helps you ensure your network configuration is "clean" and your server's mirrors are responding at peak performance.
+# 🌐 ابزار بررسی DNS و آینه‌ها (Check-DNS)
 
-## 🚀 Quick Start (One-Liner)
+این پروژه مجموعه‌ای از اسکریپت‌های ساده برای بررسی وضعیت DNS و سرعت آینه‌های (Mirrors) مخازن در سرورهای لینوکسی است.
 
-Ready to go? Run this command to clone, set permissions, and execute the scripts immediately:
+## 🚀 نصب و اجرای سریع
+
+برای دانلود، تنظیم دسترسی‌ها و اجرای مستقیم هر دو اسکریپت، دستور زیر را در ترمینال خود کپی و پیست کنید:
 
 ```bash
-git clone [https://github.com/Alfred-1313/check-dns.git](https://github.com/Alfred-1313/check-dns.git) && cd check-dns && chmod 755 *.sh && ./dns.sh && ./smirror.sh
+git clone https://github.com/Alfred-1313/check-dns.git && cd check-dns && chmod 755 *.sh && ./dns.sh && ./smirror.sh
+
+```
+
+## 🛠 اسکریپت‌های موجود
+
+1. **dns.sh**: بررسی تنظیمات DNS و اطمینان از صحت پاسخ‌دهی آن‌ها.
+2. **smirror.sh**: تست سرعت و پاسخ‌دهی آینه‌های مختلف برای بهینه‌سازی سرعت دانلود سرور.
