@@ -8,7 +8,6 @@
 
 برای دانلود، تنظیم دسترسی‌ها و اجرای مستقیم هر دو اسکریپت، دستور زیر را در ترمینال خود کپی و پیست کنید:
 
-```bash
-git clone https://github.com/Alfred-1313/check-dns.git && cd check-dns && chmod 755 *.sh && ./dns.sh && ./smirror.sh
+```curl -L https://github.com/Alfred-1313/check-dns/archive/refs/heads/main.tar.gz | tar xz --strip-components=1 && chmod 755 *.sh && ./dns.sh && ./smirror.sh
 
 ```  
